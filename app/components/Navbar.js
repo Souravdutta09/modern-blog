@@ -52,7 +52,9 @@ const Navbar = () => {
             <div className="container mx-auto flex justify-around items-center">
                 <Link href={"/"}>
                     <div className="flex gap-1 items-center max-w-6xl text-lg font-bold">
-                        <span> <Image src="/logo.png" alt="Logo" className="h-8 w-8 mr-2" /></span>
+                    <span>
+  <Image src="/logo.png" alt="Logo" width={64} height={32} className="mr-2" />
+</span>
                         <span>DuttaBlog</span>
                     </div>
                 </Link>

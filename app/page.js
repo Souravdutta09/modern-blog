@@ -88,7 +88,7 @@ export default function Home() {
     <div className="flex flex-wrap justify-center">
       {/* Blog Post 1 */}
       <div className="w-full max-w-sm mx-4 my-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
-        <Image src="https://www.billboard.com/wp-content/uploads/2024/08/selena-gomez-benny-blanco-lakers-heat-2024-billboard-1548.jpg?w=942&h=623&crop=1" alt="Blog 1" className="w-full h-48 object-cover rounded-t-lg" />
+        <img src="https://www.billboard.com/wp-content/uploads/2024/08/selena-gomez-benny-blanco-lakers-heat-2024-billboard-1548.jpg?w=942&h=623&crop=1" alt="Blog 1" className="w-full h-48 object-cover rounded-t-lg" />
         <div className="p-6">
           <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-100">Skeletons, Swifties & Sazeracs: Here&apos;s What Happened When</h3>
           <p className="mt-4 text-gray-600 dark:text-gray-300">Wednesday (Oct. 23) evening in New Orleans, a white SUV tentatively peeks around the corner of Chartres Street in the French Quarter. Though Taylor Swift&apos;s &ldquo;Fearless&ldquo; </p>
@@ -97,7 +97,7 @@ export default function Home() {
       </div>
       {/* Blog Post 2 */}
       <div className="w-full max-w-sm mx-4 my-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
-        <Image src="https://i0.wp.com/brignews.com/wp-content/uploads/2024/10/venomLastDance.webp?fit=1200%2C675&ssl=1" alt="Blog 2" className="w-full h-48 object-cover rounded-t-lg" />
+        <img src="https://i0.wp.com/brignews.com/wp-content/uploads/2024/10/venomLastDance.webp?fit=1200%2C675&ssl=1" alt="Blog 2" className="w-full h-48 object-cover rounded-t-lg" />
         <div className="p-6">
           <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-100">&apos;Venom: The Last Dance&apos;: First Reactions After the Premiere</h3>
           <p className="mt-4 text-gray-600 dark:text-gray-300">The third and final installment in Sony&apos;s Tom Hardy-led &apos;Venom&apos; franchise hits theaters Oct.25.No one ever expected Venom to be a blockbuster movie franchise,butThe third and final</p>
@@ -106,7 +106,7 @@ export default function Home() {
       </div>
       {/* Blog Post 3 */}
       <div className="w-full max-w-sm mx-4 my-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
-        <Image src="https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/indianstartupnews/media/media_files/WOejLI1Zdbyigoottf7w.jpg" alt="Blog 3" className="w-full h-48 object-cover rounded-t-lg" />
+        <img src="https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/indianstartupnews/media/media_files/WOejLI1Zdbyigoottf7w.jpg" alt="Blog 3" className="w-full h-48 object-cover rounded-t-lg" />
         <div className="p-6">
           <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-100">Swiggy sets IPO price band between Rs 371-390 per share</h3>
           <p className="mt-4 text-gray-600 dark:text-gray-300">The much-awaited IPO is a combination of fresh issuance of equity shares worth Rs 4,499 crore and an offer-for-sale of 17.5 crore equity shares by several existing shareholders, as per the RHP

@@ -25,7 +25,7 @@ const Hero = () => {
                     Your browser does not support the video tag.
                 </video>
                 <div className="absolute inset-0 flex flex-col justify-center items-center text-center lg:text-left lg:w-1/2 lg:-mt-8 z-10">
-                    <h1 className="text-2xl leading-snug md:text-4xl">
+                    <h1 className="text-sm leading-snug md:text-4xl">
                         Welcome to <span className="font-semibold">DuttaBlog, A Blogging Hub</span>! <br className="hidden lg:block" /> Dive into a world of <div className="underline font-semibold decoration-primary"><span ref={el} /></div>
                     </h1>
                     <p className="mt-4 text-base text-gray-500 dark:text-gray-300">
