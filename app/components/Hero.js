@@ -28,7 +28,7 @@ const Hero = () => {
                     <h1 className="text-sm leading-snug md:text-4xl">
                         Welcome to <span className="font-semibold">DuttaBlog, A Blogging Hub</span>! <br className="hidden lg:block" /> Dive into a world of <div className="underline font-semibold decoration-primary"><span ref={el} /></div>
                     </h1>
-                    <p className="mt-4 text-base text-gray-500 dark:text-gray-300">
+                    <p className="mt-4 text-sm text-gray-500 dark:text-gray-300">
                         Discover engaging articles, share your thoughts, and connect with fellow readers. <br className="hidden lg:block" /> Join us in creating a vibrant community of bloggers and enthusiasts!
                     </p>
                 </div>
