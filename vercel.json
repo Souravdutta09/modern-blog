@@ -1,11 +1,6 @@
 {
     "builds": [{ "src": "next.config.js", "use": "@vercel/next" }],
     "routes": [
-      { "src": "/(.*)", "dest": "/$1" }
-    ],
-    "static": {
-      "src": "content",
-      "dest": "/content"
-    }
-  }
-  
+      { "src": "/content/(.*)", "dest": "/content/$1" }
+    ]
+}

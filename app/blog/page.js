@@ -4,11 +4,10 @@ import Link from 'next/link';
 import fs from "fs";
 import matter from 'gray-matter';
 import Image from 'next/image';
-import path from 'path';
 
 
 
-const dirContent = fs.readdirSync(path.join(process.cwd(), "content"), "utf-8");
+const dirContent = fs.readdirSync("content", "utf-8")
 
 const blogs = dirContent.map(file => {
   const fileContent = fs.readFileSync(`content/${file}`, "utf-8")

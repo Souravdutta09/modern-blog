@@ -12,7 +12,6 @@ import { transformerCopyButton } from '@rehype-pretty/transformers'
 import OnThePage from "@/app/components/onthispage"
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeSlug from 'rehype-slug'
-import path from "path"
 
 export default async function Page({ params }) {
 
@@ -24,8 +23,8 @@ export default async function Page({ params }) {
     //     content: "<p>This is the content of the blog post. It can include <strong>HTML</strong> tags and other elements.</p>"
     // };
 
-    const filepath = path.join(process.cwd(), "content", `${params.slug}.md`);
-
+    const filepath = `content/${params.slug}.md`
+    
 
     if (!fs.existsSync(filepath)) {
         notFound()
