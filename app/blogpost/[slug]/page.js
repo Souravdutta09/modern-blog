@@ -24,7 +24,6 @@ export default async function Page({ params }) {
     // };
 
     const filepath = `content/${params.slug}.md`
-    
 
     if (!fs.existsSync(filepath)) {
         notFound()
