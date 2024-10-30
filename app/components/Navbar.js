@@ -1,5 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import {
@@ -51,7 +52,7 @@ const Navbar = () => {
             <div className="container mx-auto flex justify-around items-center">
                 <Link href={"/"}>
                     <div className="flex gap-1 items-center max-w-6xl text-lg font-bold">
-                        <span> <img src="/logo.png" alt="Logo" className="h-8 w-8 mr-2" /></span>
+                        <span> <Image src="/logo.png" alt="Logo" className="h-8 w-8 mr-2" /></span>
                         <span>DuttaBlog</span>
                     </div>
                 </Link>

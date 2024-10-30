@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const blogs = [
   {
@@ -27,7 +28,7 @@ const Page = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {blogs.map((blog, index) => (
           <div key={index} className="bg-white shadow-md rounded-lg overflow-hidden">
-            <img src={blog.image} alt={blog.title} className="w-full h-48 object-cover" />
+            <Image src={blog.image} alt={blog.title} className="w-full h-48 object-cover" />
             <div className="p-4">
               <h2 className="text-xl font-semibold mb-2">{blog.title}</h2>
               <p className="text-gray-600 mb-4">{blog.description}</p>
