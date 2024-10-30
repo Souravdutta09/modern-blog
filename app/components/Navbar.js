@@ -17,6 +17,7 @@ import LoadingBar from 'react-top-loading-bar'
 import { usePathname } from 'next/navigation'
 
 
+
 const Navbar = () => {
     const [progress, setProgress] = useState(0);
     const pathname = usePathname();
