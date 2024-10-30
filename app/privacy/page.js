@@ -6,16 +6,16 @@ const PrivacyPolicy = () => {
     <div className="container mx-auto px-4 py-6 bg-gray-100 rounded-lg shadow-md">
       <h1 className="text-2xl font-semibold mb-3 text-center">Privacy Policy</h1>
       <p className="mb-3 text-sm">
-        Your privacy is important to us. It is DuttaBlog's policy to respect your privacy regarding any information we may collect from you across our website, [DuttaBlog](https://yourwebsite.com), and other sites we own and operate.
+        Your privacy is important to us. It is DuttaBlog&apos;s policy to respect your privacy regarding any information we may collect from you across our website, [DuttaBlog](https://yourwebsite.com), and other sites we own and operate.
       </p>
       <p className="mb-3 text-sm">
-        We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.
+        We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we&apos;re collecting it and how it will be used.
       </p>
       <p className="mb-3 text-sm">
-        We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.
+        We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we&apos;ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.
       </p>
       <p className="mb-3 text-sm">
-        We don’t share any personally identifying information publicly or with third-parties, except when required to by law.
+        We don&apos;t share any personally identifying information publicly or with third-parties, except when required to by law.
       </p>
       <p className="mb-3 text-sm">
         Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.
