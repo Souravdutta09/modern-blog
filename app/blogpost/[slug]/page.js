@@ -22,8 +22,7 @@ export default async function Page({ params }) {
     //     date: "2024-09-02",
     //     content: "<p>This is the content of the blog post. It can include <strong>HTML</strong> tags and other elements.</p>"
     // };
-
-    const filepath = `content/${params.slug}.md`
+const filepath = `${process.cwd()}/content/${params.slug}.md`
 
     if (!fs.existsSync(filepath)) {
         notFound()
